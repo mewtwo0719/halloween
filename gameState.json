@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-10-29T10:16:16.187Z",
+  "playerCount": 4,
+  "recoveryCodes": [
+    {
+      "code": "4821",
+      "entered": true
+    },
+    {
+      "code": "9153",
+      "entered": false
+    },
+    {
+      "code": "6158",
+      "entered": false
+    },
+    {
+      "code": "2049",
+      "entered": false
+    },
+    {
+      "code": "7385",
+      "entered": false
+    },
+    {
+      "code": "1593",
+      "entered": false
+    },
+    {
+      "code": "8264",
+      "entered": false
+    },
+    {
+      "code": "4710",
+      "entered": false
+    },
+    {
+      "code": "5937",
+      "entered": false
+    },
+    {
+      "code": "0682",
+      "entered": false
+    }
+  ],
+  "qrCodes": [
+    {
+      "code": "R3C0V3R",
+      "scanned": false
+    },
+    {
+      "code": "K3YF1ND3",
+      "scanned": false
+    },
+    {
+      "code": "L0CKB0X1",
+      "scanned": false
+    },
+    {
+      "code": "C0D3HUN7",
+      "scanned": false
+    },
+    {
+      "code": "UNL0CKM3",
+      "scanned": false
+    },
+    {
+      "code": "S3CR3T42",
+      "scanned": false
+    },
+    {
+      "code": "P4ZZL3X1",
+      "scanned": false
+    },
+    {
+      "code": "D4T4L0CK",
+      "scanned": false
+    },
+    {
+      "code": "F1L3K3Y7",
+      "scanned": false
+    },
+    {
+      "code": "CLU3S3EK",
+      "scanned": false
+    },
+    {
+      "code": "TR34SUR3",
+      "scanned": false
+    },
+    {
+      "code": "G4M3C0D3",
+      "scanned": false
+    },
+    {
+      "code": "QRC0D3ME",
+      "scanned": false
+    },
+    {
+      "code": "H4CKTH1S",
+      "scanned": false
+    },
+    {
+      "code": "S0LV3M31",
+      "scanned": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "escaperoom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install-all": "npm install --prefix client && npm install --prefix server",
+    "build": "npm run build --prefix client",
+    "serve": "node server/index.js",
+    "start": "npm run build && npm run serve",
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mewtwo0719/halloween.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mewtwo0719/halloween/issues"
+  },
+  "homepage": "https://github.com/mewtwo0719/halloween#readme"
+}
