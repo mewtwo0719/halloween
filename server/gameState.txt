@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-10-29T05:47:26.422Z",
+  "playerCount": 4,
+  "collectiveCounter": 0,
+  "cluesSolved": 0,
+  "totalClues": 10,
+  "unlockedGames": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "scannedQRCodes": {},
+  "qrIds": [
+    "qr-01",
+    "qr-02",
+    "qr-03",
+    "qr-04",
+    "qr-05",
+    "qr-06",
+    "qr-07",
+    "qr-08",
+    "qr-09",
+    "qr-10",
+    "qr-11",
+    "qr-12",
+    "qr-13",
+    "qr-14",
+    "qr-15"
+  ]
+}

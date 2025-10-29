@@ -1,0 +1,161 @@
+{
+  "savedAt": "2025-10-29T05:03:22.095Z",
+  "state": {
+    "games": {
+      "1": {
+        "id": "1",
+        "unlocked": false,
+        "unlockCode": "1111",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.445Z",
+        "done": false
+      },
+      "2": {
+        "id": "2",
+        "unlocked": false,
+        "unlockCode": "2222",
+        "qrRequired": true,
+        "qrScanned": {
+          "qr-01": false,
+          "qr-02": false,
+          "qr-03": false,
+          "qr-04": false,
+          "qr-05": false,
+          "qr-06": false,
+          "qr-07": false,
+          "qr-08": false,
+          "qr-09": false,
+          "qr-10": false,
+          "qr-11": false,
+          "qr-12": false,
+          "qr-13": false,
+          "qr-14": false,
+          "qr-15": false
+        },
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.445Z",
+        "done": false
+      },
+      "3": {
+        "id": "3",
+        "unlocked": false,
+        "unlockCode": "3333",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.445Z",
+        "done": false
+      },
+      "4": {
+        "id": "4",
+        "unlocked": false,
+        "unlockCode": "4444",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.445Z",
+        "done": false
+      },
+      "5": {
+        "id": "5",
+        "unlocked": false,
+        "unlockCode": "5555",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.446Z",
+        "done": false
+      },
+      "6": {
+        "id": "6",
+        "unlocked": false,
+        "unlockCode": "6666",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.446Z",
+        "done": false
+      },
+      "7": {
+        "id": "7",
+        "unlocked": false,
+        "unlockCode": "7777",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.446Z",
+        "done": false
+      },
+      "8": {
+        "id": "8",
+        "unlocked": false,
+        "unlockCode": "8888",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.446Z",
+        "done": false
+      },
+      "9": {
+        "id": "9",
+        "unlocked": false,
+        "unlockCode": "9999",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.446Z",
+        "done": false
+      },
+      "10": {
+        "id": "10",
+        "unlocked": false,
+        "unlockCode": "0000",
+        "qrRequired": false,
+        "qrScanned": null,
+        "qrScannedCount": 0,
+        "playerCount": 0,
+        "collectiveCounter": 0,
+        "timestamp": "2025-10-29T05:03:21.446Z",
+        "done": false
+      }
+    },
+    "teams": {
+      "developers": {
+        "name": "developers",
+        "playerCount": 2
+      },
+      "analytics": {
+        "name": "analytics",
+        "playerCount": 0
+      },
+      "security": {
+        "name": "security",
+        "playerCount": 0
+      }
+    },
+    "dashboard": {
+      "gamesDone": 0,
+      "lastSaved": "2025-10-29T05:03:16.010Z"
+    }
+  }
+}
