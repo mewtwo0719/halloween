@@ -2,12 +2,16 @@ import cors from "cors";
 import express from "express";
 import fs from "fs";
 import http from "http";
+import path from "path";
 import QRCode from "qrcode";
 import { Server } from "socket.io";
+import { fileURLToPath } from "url";
 const app = express();
 app.use(cors());
 app.use(express.json());
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: { origin: "http://localhost:5173", methods: ["GET", "POST"] },
@@ -133,7 +137,6 @@ io.on("connection", (socket) => {
 // ------------------------------
 // 🌍 REST API
 // ------------------------------
-app.get("/", (req, res) => res.send("Escape Room Server Running"));
 app.get("/state", (req, res) => res.json(gameState));
 
 app.post("/reset", (req, res) => {
@@ -269,4 +272,14 @@ function broadcastState() {
 // 🚀 Start Server
 // ------------------------------
 const PORT = 3000;
+
+// Serve static frontend files
+const frontendPath = path.join(__dirname, "../client/dist");
+app.use(express.static(frontendPath));
+
+// If no API route matches, send frontend
+// Catch-all route using regex
+app.get(/^\/.*$/, (req, res) => {
+  res.sendFile(path.join(frontendPath, "index.html"));
+});
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
